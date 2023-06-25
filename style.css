@@ -1,3 +1,7 @@
+h1 {
+    color: white;
+    background-color: black;
+}
 h1, ul {
     text-align: center;
 }
@@ -6,8 +10,16 @@ ul {
 }
 li{
     display: inline-block;
-    margin: 50px;
+    margin: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
 }
+a:visited{
+    color :dodgerblue;
+}
+
 img{
     display:block;
+    border-radius: 20px;
 }
